@@ -54,12 +54,58 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-vulcanize">module gulp-vulcanize</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-vulcanize.gulp-vulcanize">
+            function <span class="apidocSignatureSpan"></span>gulp-vulcanize
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-vulcanize" id="apidoc.module.gulp-vulcanize">module gulp-vulcanize</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-vulcanize.gulp-vulcanize" id="apidoc.element.gulp-vulcanize.gulp-vulcanize">
+        function <span class="apidocSignatureSpan"></span>gulp-vulcanize
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-vulcanize = function (opts) {
+	opts = opts || {};
+
+	return through.obj(function (file, enc, cb) {
+		if (file.isNull()) {
+			cb(null, file);
+			return;
+		}
+
+		if (file.isStream()) {
+			cb(new gutil.PluginError('gulp-vulcanize', 'Streaming not supported'));
+			return;
+		}
+
+		(new Vulcanize(opts)).process(file.path, function (err, inlinedHtml) {
+			if (err) {
+				cb(new gutil.PluginError('gulp-vulcanize', err, {fileName: file.path}));
+				return;
+			}
+
+			file.contents = new Buffer(inlinedHtml);
+			cb(null, file);
+		}.bind(this));
+	});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
