@@ -1,9 +1,14 @@
-# api documentation for  [gulp-vulcanize (v6.1.0)](https://github.com/sindresorhus/gulp-vulcanize)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-vulcanize.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-vulcanize) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-vulcanize.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-vulcanize)
+# npmdoc-gulp-vulcanize
+
+#### api documentation for  [gulp-vulcanize (v6.1.0)](https://github.com/sindresorhus/gulp-vulcanize)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-vulcanize.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-vulcanize) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-vulcanize.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-vulcanize)
+
 #### Concatenate a set of Web Components into one file
 
-[![NPM](https://nodei.co/npm/gulp-vulcanize.png?downloads=true)](https://www.npmjs.com/package/gulp-vulcanize)
+[![NPM](https://nodei.co/npm/gulp-vulcanize.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-vulcanize)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-vulcanize/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-vulcanize_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-vulcanize/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-vulcanize/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-vulcanize/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-vulcanize/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-vulcanize/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-vulcanize/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -64,13 +68,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "gulp-vulcanize",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/gulp-vulcanize.git"
@@ -81,16 +83,6 @@
     "version": "6.1.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-vulcanize](#apidoc.module.gulp-vulcanize)
-
-
-
-# <a name="apidoc.module.gulp-vulcanize"></a>[module gulp-vulcanize](#apidoc.module.gulp-vulcanize)
 
 
 
